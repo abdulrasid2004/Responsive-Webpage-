@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Image</title>
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: #313e51;
+        }
+
+        icon {
+            background-color: #3c4d67;
+        }
+
+        .class {
+            font-family: roboto;
+        }
+
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .roboto-bold {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* 
+        light-orange: #fef0e8
+        orange: #ff6c27
+        light-green: #e1fdef
+        green: #2fff97
+        light-blue: #edeffb
+        blue: #4474e0
+        light-perpal: #f5e7ff
+        perpal: #a140e7
+
+   
+       */
+
+        .left {
+            font-size: 3.5rem;
+            color: white;
+
+        }
+
+
+        .tiles {
+            background-color: #3c4d67;
+            color: white;
+            font-weight: bold;
+            border-radius: 15px;
+            width: 400px;
+            height: 60px;
+            margin-bottom: 16px;
+            display: flex;
+            font-size: 1.2rem;
+            gap: 30px;
+            align-items: center;
+
+        }
+
+        body {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 5px;
+            /* border-width: 2px; */
+            /* border: 2px solid white; */
+            margin-left: 10px;
+
+        }
+
+        .logo1 {
+            background-color: #fef0e8;
+            color: #ff6c27;
+
+        }
+
+        .logo2 {
+            background-color: #e1fdef;
+            color: #16f887;
+
+        }
+
+        .logo3 {
+            background-color: #edeffb;
+            color: #4474e0;
+
+        }
+
+        .logo4 {
+            background-color: #f5e7ff;
+            color: #a140e7;
+
+        }
+.tagline{
+    color: #a2b0c4;
+    font-style: italic;
+    margin-top: 32px;
+    font-size: 1rem;
+
+}
+        @media screen and (max-width :768px) {
+            body {
+                flex-direction: column;
+            }
+        }
+    </Style>
+</head>
+
+<body>
+
+
+    <!-- Left container -->
+
+    <div class="left roboto-regular ">
+        Welcome to the<br />
+        <span class="roboto-bold">Frontend Quiz!</span>
+        <p class="tagline">Pick a subject to get started.</p>
+    </div>
+
+    <!-- Right container -->
+
+    <div class="right roboto-regular ">
+
+        <div class="tiles">
+
+            <div class="logo logo1">
+                <i class="ri-code-s-slash-line"></i>
+            </div>
+
+            HTML
+        </div>
+        <div class="tiles">
+            <div class="logo logo2">
+                <i class="ri-brush-4-line"></i>
+            </div>
+            CSS
+        </div>
+        <div class="tiles">
+            <div class="logo logo3">
+                <i class="ri-javascript-line"></i>
+            </div>
+            Javascript
+        </div>
+        <div class="tiles">
+            <div class="logo logo4">
+                <i class="ri-wheelchair-line"></i>
+            </div>
+            Accessibility
+        </div>
+    </div>
+</body>
+
+</html>
